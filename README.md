@@ -1,5 +1,7 @@
 # Predicting Crowdfunding Success: Multimodal Deep Learning
 
+![Kickstarter](assets/kickstarter_banner.png)
+
 Master's thesis project (Tilburg University, MSc Data Science and Society) predicting the success of Kickstarter crowdfunding campaigns using structured, textual, and multimodal deep learning approaches.
 
 ## Summary
@@ -24,15 +26,15 @@ Models were built and compared across three settings: structured features only, 
 
 ## Notebooks
 
-| Notebook | Description |
-|---|---|
-| `MLP_structured_final.ipynb` | MLP on structured features only |
-| `MLP_structured_pretrain_final.ipynb` | MLP on structured + pre-trained RoBERTa embeddings, with nested CV |
-| `MLP_structured_finetuned_final.ipynb` | MLP on structured + fine-tuned RoBERTa embeddings, with nested CV |
-| `MLP_pretrain_final.ipynb` | MLP on pre-trained RoBERTa text embeddings only |
-| `MLP_finetuned_final.ipynb` | MLP on fine-tuned RoBERTa text embeddings only |
-| `Earlyfusion_pretrain.ipynb` | Multimodal Transformer (early fusion) with pre-trained RoBERTa embeddings |
-| `Earlyfusion_finetune.ipynb` | Multimodal Transformer (early fusion) with fine-tuned RoBERTa embeddings |
+| Folder | Notebook | Description |
+|---|---|---|
+| `mlp_structured/` | `MLP_structured_final.ipynb` | MLP on structured features only |
+| `mlp_structured/` | `MLP_structured_pretrain_final.ipynb` | MLP on structured + pre-trained RoBERTa embeddings, with nested CV |
+| `mlp_structured/` | `MLP_structured_finetuned_final.ipynb` | MLP on structured + fine-tuned RoBERTa embeddings, with nested CV |
+| `mlp_text/` | `MLP_pretrain_final.ipynb` | MLP on pre-trained RoBERTa text embeddings only |
+| `mlp_text/` | `MLP_finetuned_final.ipynb` | MLP on fine-tuned RoBERTa text embeddings only |
+| `transformer_fusion/` | `Earlyfusion_pretrain.ipynb` | Multimodal Transformer (early fusion) with pre-trained RoBERTa embeddings |
+| `transformer_fusion/` | `Earlyfusion_finetune.ipynb` | Multimodal Transformer (early fusion) with fine-tuned RoBERTa embeddings |
 
 ## Technology Stack
 
